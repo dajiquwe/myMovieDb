@@ -1,0 +1,35 @@
+.movie-list {
+    background-color: #ffffff;
+    width: 100%;
+    padding-left: 33px;
+    min-height: 88vh;
+}
+
+.no-movies {
+    font-size: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #797979;
+    color: #ffffff;
+    padding: 20px 7px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+@media (max-width: 1024px) {
+    .movie-list {
+        padding-left: 32px;
+    }
+}
+
+@media (max-width: 768px) {
+    .movie-list {
+        padding-left: 10px;
+    }
+
+    .no-movies {
+      width: 85%;
+    }
+}

@@ -1,0 +1,19 @@
+.error {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+}
+
+.anticon {
+    text-align: center;
+}
+
+.ant-alert-content {
+    font-size: 20px;
+}
+
+.ant-alert-message {
+    color: red;
+}

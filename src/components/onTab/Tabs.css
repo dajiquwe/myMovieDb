@@ -1,0 +1,52 @@
+.tabs {
+    margin: 13px auto 20px auto;
+    height: 51px;
+}
+
+.tabs__btn {
+    border: none;
+    border-bottom: 1px rgba(0, 0, 0, 0.275) solid;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.65);
+    background-color: #ffffff;
+    cursor: pointer;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.tabs__btn:first-child {
+    padding-right: 8px;
+}
+
+.tabs__btn:last-child {
+    padding-left: 8px;
+}
+
+.tabs__btn:hover {
+    font-weight: 700;
+}
+
+.tabs__btn:focus {
+    outline: none;
+    border: rgba(153, 149, 149, 0.097) solid 1px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: #1890ff 2px solid;
+}
+
+.tabs__btn_active {
+    color: #1890ff;
+    border-bottom: #1890ff 2px solid;
+    padding-bottom: 9px;
+    padding-top: 16px;
+}
+
+.tabs-anchor {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
